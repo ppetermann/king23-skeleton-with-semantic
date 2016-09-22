@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}Welcome to your new King23 Application{% endblock %}</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="/semantic/semantic.min.css">
+</head>
+<body>
+<div class="ui grid">
+    <nav class="ui inverted fixed menu navbar page grid">
+        <div class="left menu">
+            <a href="" class="item">King23</a>
+        </div>
+        <div class="right menu">
+            <a href="http://king23.net/" class="item">K23@Website</a>
+            <a href="https://github.com/ppetermann/king23" class="item">K23@Github</a>
+        </div>
+    </nav>
+    <div class="ui page grid main">
+        {% block content %}Default Content{% endblock %}
+        <div class="row">
+            <div class="column">
+                <div class="ui divider"></div>
+                <span><a href="https://github.com/ppetermann/king23-skeleton">the King23 Skeleton</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

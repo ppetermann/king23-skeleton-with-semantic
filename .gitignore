@@ -1,0 +1,4 @@
+vendor/
+cache/templates_c/*
+cache/semantic/
+node_modules/
