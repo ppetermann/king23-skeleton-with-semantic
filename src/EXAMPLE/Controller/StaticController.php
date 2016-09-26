@@ -30,7 +30,6 @@ namespace EXAMPLE\Controller;
 class StaticController extends BaseController
 {
     /**
-     * @param array $params
      * @param \Psr\Http\Message\ServerRequestInterface $request
      * @param \Psr\Http\Message\ResponseInterface $response
      * @return \Psr\Http\Message\ResponseInterface
